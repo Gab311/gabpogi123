@@ -9,7 +9,7 @@ def randomized_number():
 
 
 def gab_program(msg, webhook):
-    print(figlet_format("gab pogi")
+    print(figlet_format("gab pogi"))
     while True:
         try:
             data.requests.post(webhook, json={"content": msg})

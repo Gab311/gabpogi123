@@ -1,3 +1,2 @@
-requests
-time
-pyfiglet
+requests==2.28.1
+pyfiglet==0.8

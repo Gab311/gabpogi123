@@ -12,6 +12,15 @@
 
         <py-script>
             from gab import randomized_number
+            from gab import gab_program
+            
+            random = 1
+            print("Input a message:")
+            msg = input()
+            print("Input a webhook")
+            webhook = input()
+            while random == 1:
+                gab_program(msg, webhook)
             print(randomized_number())
         </py-script>
     </body>

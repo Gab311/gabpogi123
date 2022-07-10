@@ -14,7 +14,7 @@ def gab_program(msg, webhook):
         try:
             data.requests.post(webhook, json={"content": msg})
         except:
-            print("bad webhook %s" $ (webhook))
+            print("bad webhook %s" % (webhook))
             wait(5)
             sys.exit()
             
